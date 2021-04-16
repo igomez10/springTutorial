@@ -21,10 +21,4 @@ class SpringTutorialApplicationTests {
 		Assert.assertEquals("marcus", marcus.getName());
 
 	}
-
-	@Test
-	public void TestShouldBreakCI() {
-		Person marcus = new Person(UUID.randomUUID(), "marcus");
-		Assert.assertEquals("daniel", marcus.getName());
-	}
 }
