@@ -16,4 +16,10 @@ public class PersonTest {
         assertEquals("marcus", marcus.getName());
 
     }
+
+    @Test
+    public void shouldBreakCI() {
+        assertEquals("marcus", "ignacio");
+
+    }
 }
