@@ -21,5 +21,7 @@ jobs:
       with:
         java-version: '11'
         distribution: 'adopt'
-    - name: Build with Maven
-      run: mvn verify
+    - name: Compile with Maven
+      run: mvn compile
+    - name: Test with Maven
+      run: mvn test
